@@ -44,7 +44,7 @@ add([
   'ground',
   sprite('terrain'),
   anchor('botleft'),
-  pos(0, game().height),
+  pos(100, game().height),
   area(),
   body({ isStatic: true }),
 ]);
@@ -61,7 +61,7 @@ add([
   'ground',
   sprite('terrain'),
   anchor('botleft'),
-  pos(game().width / 2, game().height - 50),
+  pos(game().width * 0.4, game().height - 70),
   area(),
   body({ isStatic: true }),
 ]);
@@ -69,7 +69,7 @@ add([
 const player = add([
   'player',
   sprite('player'),
-  pos(0, 0),
+  pos(50, 0),
   area(),
   body(),
   doubleJump(2),
