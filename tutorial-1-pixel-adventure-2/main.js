@@ -17,7 +17,7 @@ function game() {
 camPos(game().width / 2, game().height / 2);
 camScale(CAM_SCALE, CAM_SCALE);
 
-loadRoot('/assets/');
+loadRoot('./assets/');
 loadSprite('terrain', 'terrain.png');
 loadSprite('dust-particle', 'particles/dust.png');
 loadSpriteAtlas('ninja-frog/all.png', {
